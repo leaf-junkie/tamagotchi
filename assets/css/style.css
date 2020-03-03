@@ -1,0 +1,29 @@
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    background-color: #EE6E73;
+}
+
+main {
+    flex: 1 0 auto;
+}
+
+.background {
+    background-image: url("/assets/images/bg-forest-1.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+    border-radius: 25%;
+    height: 80vh;
+    margin-top: 5vh;
+    border: 2px #fff solid;
+    box-shadow: 0px 0px 12px #fff;
+}
+
+.buttonCol {
+    margin-top: 25vh;
+}
+
+.activity {
+    font-size: 14px;
+}
