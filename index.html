@@ -13,33 +13,8 @@
         <nav>
         <div class="nav-wrapper">
             <a href="#" class="brand-logo">My Little Totoro</a>
-            <ul id="nav-mobile" class="right hide-on-med-and-down">
-            <!-- <li><a href="sass.html">Sass</a></li>
-            <li><a href="badges.html">Components</a></li>
-            <li><a href="collapsible.html">JavaScript</a></li> -->
-            </ul>
         </div>
         </nav>
-        <!-- <div class="valign-wrapper">
-            <ul id="slide-out" class="sidenav sidenav-fixed">
-              <li><div class="user-view">
-                <div class="background light-blue lighten-1">
-                  <img src="images/office.jpg">
-                </div>
-                <a href="#user"><img class="circle" src="images/yuna.jpg"></a>
-                <a href="#" class="brand-logo white-text">My Little Totoro</a>
-              </div></li>
-              <li><a class="subheader">Subheader</a></li>
-              <li><a href="#!">Eat</a></li>
-              <li><a href="#!">Play</a></li>
-              <li><a href="#!">Sleep</a></li>
-              <li><a href="#!">Clean</a></li>
-              <li><div class="divider"></div></li>
-              <li><a class="subheader">Subheader</a></li>
-              <li><a href="#!">Go inside</a></li>
-            </ul>
-            <a href="#" data-target="slide-out" class="sidenav-trigger"><i class="material-icons">menu</i></a>
-        </div> -->
     </header>
     
     <main>
@@ -47,32 +22,34 @@
             <div class="col s2 buttonCol">
                 <div class="row">
                     <div class="col s4 offset-s2">
-                        <a class="btn-floating btn-large light-blue activity">play</a>
+                        <a id="eatBtn" class="btn-floating btn-large light-blue activity">eat</a>
                     </div>
                     <div class="col s4">
-                        <a class="btn-floating btn-large light-blue activity">eat</a>
+                        <a id="playBtn" class="btn-floating btn-large light-blue activity">play</a>
                     </div>
                 </div>
                 <br>
                 <div class="row">
                     <div class="col s4 offset-s2">
-                        <a class="btn-floating btn-large light-blue activity">sleep</a>
+                        <a id="sleepBtn" class="btn-floating btn-large light-blue activity">sleep</a>
                     </div>
                     <div class="col s4">
-                        <a class="btn-floating btn-large light-blue activity">clean</a>
+                        <a id="cleanBtn" class="btn-floating btn-large light-blue activity">clean</a>
                     </div>
                 </div>          
             </div>
             <div class="col s8">
-                <div class="background"></div>
+                <div class="background">
+                    <img class="sprite" src="./assets/images/totoro-1.png">
+                </div>
             </div>
             <div class="col s2 buttonCol">
                 <div class="row">
                     <div class="col s4 offset-s2">
-                        <a class="btn-floating btn-large light-blue activity">home</a>
+                        <a id="homebtn" class="btn-floating btn-large light-blue activity">home</a>
                     </div>
                     <div class="col s4">
-                        <a class="btn-floating btn-large light-blue activity">forest</a>
+                        <a id="forestBtn" class="btn-floating btn-large light-blue activity">forest</a>
                     </div>
                 </div>
                 <br>
@@ -107,9 +84,9 @@
         </div>
       </footer>
 
-      <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-      <!-- Compiled and minified JavaScript -->
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-      <script src="./assets/js/main.js"></script>
+        <!-- JavaScript -->
+        <script language="JavaScript" type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script language="JavaScript" type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+        <script language="JavaScript" type="text/javascript" src="./assets/js/main.js"></script>
 </body>
 </html>
