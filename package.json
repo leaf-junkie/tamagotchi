@@ -20,7 +20,7 @@
     "@fortawesome/fontawesome-free": "^5.12.1",
     "@fortawesome/fontawesome-pro": "^5.12.1",
     "install": "^0.13.0",
-    "jquery": "^3.4.1",
+    "jquery": "^3.5.0",
     "npm": "^6.14.1"
   }
 }
